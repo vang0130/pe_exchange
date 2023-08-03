@@ -1,0 +1,48 @@
+[PEX] Starting
+[PEX] Trading 2 products: GPU Router
+[PEX] Created FIFO /tmp/pe_exchange_0
+[PEX] Created FIFO /tmp/pe_trader_0
+[PEX] Starting trader 0 (./tests/E2E/invalid_orders/trader)
+[PEX] Connected to /tmp/pe_exchange_0
+[PEX] Connected to /tmp/pe_trader_0
+[PEX] [T0] Parsing command: <buy some food>
+[PEX] [T0] Parsing command: <MARKET SELL 0 30 40>
+[PEX] [T0] Parsing command: <BUY 0 john 30 40>
+[PEX] [T0] Parsing command: <BUY 0 GPU 30 40>
+[PEX]	--ORDERBOOK--
+[PEX]	Product: GPU; Buy levels: 1; Sell levels: 0
+[PEX]		BUY 30 @ $40 (1 order)
+[PEX]	Product: Router; Buy levels: 0; Sell levels: 0
+[PEX]	--POSITIONS--
+[PEX]	Trader 0: GPU 0 ($0), Router 0 ($0)
+[PEX] [T0] Parsing command: <SELL 0 GPU 10 20>
+[PEX] [T0] Parsing command: <SELL 10 GPU 10 20>
+[PEX] [T0] Parsing command: <SELL 1 GPU 10000000000 20>
+[PEX] [T0] Parsing command: <sell 1 sadness 30 30>
+[PEX] [T0] Parsing command: <SELL 1 sadness 30 30>
+[PEX] [T0] Parsing command: <SELL 1 GPU 20 1000000>
+[PEX] [T0] Parsing command: <SELL 1 GPU -2 0>
+[PEX] [T0] Parsing command: <SELL 20 20>
+[PEX] [T0] Parsing command: <SELL a b c d e f>
+[PEX] [T0] Parsing command: <S 1 GPU 2 3>
+[PEX] [T0] Parsing command: <SELL 1 GPU 20 50>
+[PEX]	--ORDERBOOK--
+[PEX]	Product: GPU; Buy levels: 1; Sell levels: 1
+[PEX]		SELL 20 @ $50 (1 order)
+[PEX]		BUY 30 @ $40 (1 order)
+[PEX]	Product: Router; Buy levels: 0; Sell levels: 0
+[PEX]	--POSITIONS--
+[PEX]	Trader 0: GPU 0 ($0), Router 0 ($0)
+[PEX] [T0] Parsing command: <AMEND 3 2>
+[PEX] [T0] Parsing command: <A 0 10 10>
+[PEX] [T0] Parsing command: <AMEND 0 0 10>
+[PEX] [T0] Parsing command: <AMEND 0 10 0>
+[PEX] [T0] Parsing command: <AMEND 9999999 10 20>
+[PEX] [T0] Parsing command: <AMEND 2 100 100>
+[PEX] [T0] Parsing command: <CANCEL 20 30>
+[PEX] [T0] Parsing command: <CANCEL 3>
+[PEX] [T0] Parsing command: <COOCOO 2>
+[PEX] [T0] Parsing command: <CANCEL -1>
+[PEX] Trader 0 disconnected
+[PEX] Trading completed
+[PEX] Exchange fees collected: $0

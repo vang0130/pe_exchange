@@ -1,0 +1,121 @@
+[PEX] Starting
+[PEX] Trading 2 products: GPU Router
+[PEX] Created FIFO /tmp/pe_exchange_0
+[PEX] Created FIFO /tmp/pe_trader_0
+[PEX] Starting trader 0 (./tests/E2E/buy_levels/trader)
+[PEX] Connected to /tmp/pe_exchange_0
+[PEX] Connected to /tmp/pe_trader_0
+[PEX] [T0] Parsing command: <BUY 0 GPU 1 30>
+[PEX]	--ORDERBOOK--
+[PEX]	Product: GPU; Buy levels: 1; Sell levels: 0
+[PEX]		BUY 1 @ $30 (1 order)
+[PEX]	Product: Router; Buy levels: 0; Sell levels: 0
+[PEX]	--POSITIONS--
+[PEX]	Trader 0: GPU 0 ($0), Router 0 ($0)
+[PEX] [T0] Parsing command: <BUY 1 GPU 1 30>
+[PEX]	--ORDERBOOK--
+[PEX]	Product: GPU; Buy levels: 1; Sell levels: 0
+[PEX]		BUY 2 @ $30 (2 orders)
+[PEX]	Product: Router; Buy levels: 0; Sell levels: 0
+[PEX]	--POSITIONS--
+[PEX]	Trader 0: GPU 0 ($0), Router 0 ($0)
+[PEX] [T0] Parsing command: <BUY 2 GPU 1 40>
+[PEX]	--ORDERBOOK--
+[PEX]	Product: GPU; Buy levels: 2; Sell levels: 0
+[PEX]		BUY 1 @ $40 (1 order)
+[PEX]		BUY 2 @ $30 (2 orders)
+[PEX]	Product: Router; Buy levels: 0; Sell levels: 0
+[PEX]	--POSITIONS--
+[PEX]	Trader 0: GPU 0 ($0), Router 0 ($0)
+[PEX] [T0] Parsing command: <BUY 3 GPU 1 40>
+[PEX]	--ORDERBOOK--
+[PEX]	Product: GPU; Buy levels: 2; Sell levels: 0
+[PEX]		BUY 2 @ $40 (2 orders)
+[PEX]		BUY 2 @ $30 (2 orders)
+[PEX]	Product: Router; Buy levels: 0; Sell levels: 0
+[PEX]	--POSITIONS--
+[PEX]	Trader 0: GPU 0 ($0), Router 0 ($0)
+[PEX] [T0] Parsing command: <BUY 4 GPU 1 30>
+[PEX]	--ORDERBOOK--
+[PEX]	Product: GPU; Buy levels: 2; Sell levels: 0
+[PEX]		BUY 2 @ $40 (2 orders)
+[PEX]		BUY 3 @ $30 (3 orders)
+[PEX]	Product: Router; Buy levels: 0; Sell levels: 0
+[PEX]	--POSITIONS--
+[PEX]	Trader 0: GPU 0 ($0), Router 0 ($0)
+[PEX] [T0] Parsing command: <CANCEL 0>
+[PEX]	--ORDERBOOK--
+[PEX]	Product: GPU; Buy levels: 2; Sell levels: 0
+[PEX]		BUY 2 @ $40 (2 orders)
+[PEX]		BUY 2 @ $30 (2 orders)
+[PEX]	Product: Router; Buy levels: 0; Sell levels: 0
+[PEX]	--POSITIONS--
+[PEX]	Trader 0: GPU 0 ($0), Router 0 ($0)
+[PEX] [T0] Parsing command: <CANCEL 2>
+[PEX]	--ORDERBOOK--
+[PEX]	Product: GPU; Buy levels: 2; Sell levels: 0
+[PEX]		BUY 1 @ $40 (1 order)
+[PEX]		BUY 2 @ $30 (2 orders)
+[PEX]	Product: Router; Buy levels: 0; Sell levels: 0
+[PEX]	--POSITIONS--
+[PEX]	Trader 0: GPU 0 ($0), Router 0 ($0)
+[PEX] [T0] Parsing command: <CANCEL 3>
+[PEX]	--ORDERBOOK--
+[PEX]	Product: GPU; Buy levels: 1; Sell levels: 0
+[PEX]		BUY 2 @ $30 (2 orders)
+[PEX]	Product: Router; Buy levels: 0; Sell levels: 0
+[PEX]	--POSITIONS--
+[PEX]	Trader 0: GPU 0 ($0), Router 0 ($0)
+[PEX] [T0] Parsing command: <BUY 5 GPU 1 30>
+[PEX]	--ORDERBOOK--
+[PEX]	Product: GPU; Buy levels: 1; Sell levels: 0
+[PEX]		BUY 3 @ $30 (3 orders)
+[PEX]	Product: Router; Buy levels: 0; Sell levels: 0
+[PEX]	--POSITIONS--
+[PEX]	Trader 0: GPU 0 ($0), Router 0 ($0)
+[PEX] [T0] Parsing command: <AMEND 5 2 30>
+[PEX]	--ORDERBOOK--
+[PEX]	Product: GPU; Buy levels: 1; Sell levels: 0
+[PEX]		BUY 4 @ $30 (3 orders)
+[PEX]	Product: Router; Buy levels: 0; Sell levels: 0
+[PEX]	--POSITIONS--
+[PEX]	Trader 0: GPU 0 ($0), Router 0 ($0)
+[PEX] [T0] Parsing command: <AMEND 5 1 40>
+[PEX]	--ORDERBOOK--
+[PEX]	Product: GPU; Buy levels: 2; Sell levels: 0
+[PEX]		BUY 1 @ $40 (1 order)
+[PEX]		BUY 2 @ $30 (2 orders)
+[PEX]	Product: Router; Buy levels: 0; Sell levels: 0
+[PEX]	--POSITIONS--
+[PEX]	Trader 0: GPU 0 ($0), Router 0 ($0)
+[PEX] [T0] Parsing command: <AMEND 5 1 50>
+[PEX]	--ORDERBOOK--
+[PEX]	Product: GPU; Buy levels: 2; Sell levels: 0
+[PEX]		BUY 1 @ $50 (1 order)
+[PEX]		BUY 2 @ $30 (2 orders)
+[PEX]	Product: Router; Buy levels: 0; Sell levels: 0
+[PEX]	--POSITIONS--
+[PEX]	Trader 0: GPU 0 ($0), Router 0 ($0)
+[PEX] [T0] Parsing command: <CANCEL 5>
+[PEX]	--ORDERBOOK--
+[PEX]	Product: GPU; Buy levels: 1; Sell levels: 0
+[PEX]		BUY 2 @ $30 (2 orders)
+[PEX]	Product: Router; Buy levels: 0; Sell levels: 0
+[PEX]	--POSITIONS--
+[PEX]	Trader 0: GPU 0 ($0), Router 0 ($0)
+[PEX] [T0] Parsing command: <CANCEL 4>
+[PEX]	--ORDERBOOK--
+[PEX]	Product: GPU; Buy levels: 1; Sell levels: 0
+[PEX]		BUY 1 @ $30 (1 order)
+[PEX]	Product: Router; Buy levels: 0; Sell levels: 0
+[PEX]	--POSITIONS--
+[PEX]	Trader 0: GPU 0 ($0), Router 0 ($0)
+[PEX] [T0] Parsing command: <CANCEL 1>
+[PEX]	--ORDERBOOK--
+[PEX]	Product: GPU; Buy levels: 0; Sell levels: 0
+[PEX]	Product: Router; Buy levels: 0; Sell levels: 0
+[PEX]	--POSITIONS--
+[PEX]	Trader 0: GPU 0 ($0), Router 0 ($0)
+[PEX] Trader 0 disconnected
+[PEX] Trading completed
+[PEX] Exchange fees collected: $0

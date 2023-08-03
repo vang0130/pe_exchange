@@ -1,0 +1,7 @@
+BUY 0 GPU 40 40;
+SELL 1 Router 30 50;
+BUY 2 Router 30 20;
+SELL 3 GPU 39 40;
+SELL 4 GPU 90 90;
+BUY 5 Router 20 30;
+SELL 6 Router 10 20;
